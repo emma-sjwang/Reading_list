@@ -19,10 +19,10 @@ Reading list on deep learning.  Ph.d life
 * **[MInd](https://www.sciencedirect.com/science/article/pii/S0031320314002817)** Cheplygina, Veronika, David MJ Tax, and Marco Loog. "Multiple instance learning with bag dissimilarities." Pattern Recognition 48.1 (2015): 264-275.
 * **[CCE](https://link.springer.com/content/pdf/10.1007%2Fs10115-006-0029-3.pdf)** Zhou, Zhi-Hua, and Min-Ling Zhang. "Solving multi-instance problems with classifier ensemble based on constructive clustering." Knowledge and Information Systems 11.2 (2007): 155-170.
 * **[MILES](http://ieeexplore.ieee.org/abstract/document/1717454/)** Chen, Yixin, Jinbo Bi, and James Ze Wang. "MILES: Multiple-instance learning via embedded instance selection." IEEE Transactions on Pattern Analysis and Machine Intelligence 28.12 (2006): 1931-1947.
-* **[NSK-SVM]()** 
-* **[mi-Graph]()**
+* **[NSK-SVM](http://sci2s.ugr.es/keel/pdf/algorithm/congreso/2002-Gartner-ICML.pdf)** Gärtner, Thomas, et al. "Multi-instance kernels." ICML. Vol. 2. 2002.
+* **[mi-Graph](http://delivery.acm.org/10.1145/1560000/1553534/p1249-zhou.pdf?ip=137.189.94.204&id=1553534&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2E63D3CA449C1BD759%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1521362000_3a52285aa4cce5528b0f0518fadbc91c)** Zhou, Zhi-Hua, Yu-Yin Sun, and Yu-Feng Li. "Multi-instance learning by treating instances as non-iid samples." Proceedings of the 26th annual international conference on machine learning. ACM, 2009.
 * **[BoW-SVM]()**
-* **[EMD-SVM]()**
+* **[EMD-SVM](https://link.springer.com/content/pdf/10.1023%2FA%3A1026543900054.pdf)** Rubner, Yossi, Carlo Tomasi, and Leonidas J. Guibas. "The earth mover's distance as a metric for image retrieval." International journal of computer vision 40.2 (2000): 99-121.
 
 #### Ranking
 * **** Fast bundle algorithm for multiple-instance learning
