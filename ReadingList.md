@@ -7,6 +7,6 @@ Reading list on deep learning.  Ph.d life
 ----------
 ### MIL
 * **MIL for microscopy images** Kraus, Oren Z., Jimmy Lei Ba, and Brendan J. Frey. "Classifying and segmenting microscopy images with deep multiple instance learning." Bioinformatics 32.12 (2016): i52-i59.  :star::star::star::star::star:
-* **MILBoost** Zhang, Cha, John C. Platt, and Paul A. Viola. "Multiple instance boosting for object detection." Advances in neural information processing systems. 2006. :star::star::star::star:
+* **[MILBoost](http://papers.nips.cc/paper/2926-multiple-instance-boosting-for-object-detection.pdf)** Zhang, Cha, John C. Platt, and Paul A. Viola. "Multiple instance boosting for object detection." Advances in neural information processing systems. 2006. :star::star::star::star:
  
 
