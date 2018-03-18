@@ -16,4 +16,4 @@ Reading list on deep learning.  Ph.d life
 * **[MI_SVM](http://papers.nips.cc/paper/2232-support-vector-machines-for-multiple-instance-learning.pdf)** Andrews, Stuart, Ioannis Tsochantaridis, and Thomas Hofmann. "Support vector machines for multiple-instance learning." Advances in neural information processing systems. 2003. :star::star::star::star:
 * **[citation kNN](http://cogprints.org/2124/3/wang_ICML2000.pdf)** Wang, Jun, and Jean-Daniel Zucker. "Solving multiple-instance problem: A lazy learning approach." (2000): 1119-1125. 
 * **[ML-KNN](https://ac.els-cdn.com/S0031320307000027/1-s2.0-S0031320307000027-main.pdf?_tid=4aca996e-88bb-4a31-8efc-b590364adbd2&acdnat=1521359388_bb21b8697481230d67ebf257245dad8a)** Zhang, Min-Ling, and Zhi-Hua Zhou. "ML-KNN: A lazy learning approach to multi-label learning." Pattern recognition 40.7 (2007): 2038-2048.
-
+* **[MILES](http://ieeexplore.ieee.org/abstract/document/1717454/)** Chen, Yixin, Jinbo Bi, and James Ze Wang. "MILES: Multiple-instance learning via embedded instance selection." IEEE Transactions on Pattern Analysis and Machine Intelligence 28.12 (2006): 1931-1947.
