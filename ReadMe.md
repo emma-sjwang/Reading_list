@@ -6,7 +6,7 @@ Reading list on deep learning.  Ph.d life
 * **Deep MIML** Feng, Ji, and Zhi-Hua Zhou. "Deep MIML Network." AAAI. 2017.
 ----------
 ### MIL
-* **[survey](https://www.sciencedirect.com/science/article/pii/S0031320317304065)** Carbonneau, Marc-André, et al. "Multiple instance learning: A survey of problem characteristics and applications." Pattern Recognition (2017). :star::star::star::star::star:
+* **[survey](https://www.sciencedirect.com/science/article/pii/S0031320317304065)** Carbonneau, Marc-André, et al. "Multiple instance learning: A survey of problem characteristics and applications." Pattern Recognition (2017).  [another link here](https://arxiv.org/pdf/1612.03365.pdf) :star::star::star::star::star:
 
 
 * **[MIL pooling layer](https://academic.oup.com/bioinformatics/article/32/12/i52/2288769)** Kraus, Oren Z., Jimmy Lei Ba, and Brendan J. Frey. "Classifying and segmenting microscopy images with deep multiple instance learning." Bioinformatics 32.12 (2016): i52-i59.  :star::star::star::star:
