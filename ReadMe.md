@@ -15,11 +15,11 @@ Reading list on deep learning.  Ph.d life
 * **[MILBoost](http://papers.nips.cc/paper/2926-multiple-instance-boosting-for-object-detection.pdf)** Zhang, Cha, John C. Platt, and Paul A. Viola. "Multiple instance boosting for object detection." Advances in neural information processing systems. 2006. :star::star::star::star:
   
 #### Bag Space Method
-* **[C_KNN]()**
-* **[MInd]()**
-* **[CCE]()**
+* **[citation kNN](http://cogprints.org/2124/3/wang_ICML2000.pdf)** Wang, Jun, and Jean-Daniel Zucker. "Solving multiple-instance problem: A lazy learning approach." (2000): 1119-1125. 
+* **[MInd](https://www.sciencedirect.com/science/article/pii/S0031320314002817)** Cheplygina, Veronika, David MJ Tax, and Marco Loog. "Multiple instance learning with bag dissimilarities." Pattern Recognition 48.1 (2015): 264-275.
+* **[CCE](https://link.springer.com/content/pdf/10.1007%2Fs10115-006-0029-3.pdf)** Zhou, Zhi-Hua, and Min-Ling Zhang. "Solving multi-instance problems with classifier ensemble based on constructive clustering." Knowledge and Information Systems 11.2 (2007): 155-170.
 * **[MILES](http://ieeexplore.ieee.org/abstract/document/1717454/)** Chen, Yixin, Jinbo Bi, and James Ze Wang. "MILES: Multiple-instance learning via embedded instance selection." IEEE Transactions on Pattern Analysis and Machine Intelligence 28.12 (2006): 1931-1947.
-* **[NSK-SVM]()**
+* **[NSK-SVM]()** 
 * **[mi-Graph]()**
 * **[BoW-SVM]()**
 * **[EMD-SVM]()**
@@ -35,7 +35,7 @@ Reading list on deep learning.  Ph.d life
 * **[Diverse Density(DD)](http://lis.csail.mit.edu/pubs/tlp/maron98framework.pdf)** Maron, Oded, and Tomás Lozano-Pérez. "A framework for multiple-instance learning." Advances in neural information processing systems. 1998. :star::star::star::star:
 
 
-* **[citation kNN](http://cogprints.org/2124/3/wang_ICML2000.pdf)** Wang, Jun, and Jean-Daniel Zucker. "Solving multiple-instance problem: A lazy learning approach." (2000): 1119-1125. 
+
 * **[ML-KNN](https://ac.els-cdn.com/S0031320307000027/1-s2.0-S0031320307000027-main.pdf?_tid=4aca996e-88bb-4a31-8efc-b590364adbd2&acdnat=1521359388_bb21b8697481230d67ebf257245dad8a)** Zhang, Min-Ling, and Zhi-Hua Zhou. "ML-KNN: A lazy learning approach to multi-label learning." Pattern recognition 40.7 (2007): 2038-2048.
 
 * **[Multi-Instance Learning by Treating Instances As Non-I.I.D. Samples](http://delivery.acm.org/10.1145/1560000/1553534/p1249-zhou.pdf?ip=137.189.90.217&id=1553534&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2E63D3CA449C1BD759%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1521359301_6ccdb910bb1dc8d9d397e504ae13f68c)** Zhou, Zhi-Hua, Yu-Yin Sun, and Yu-Feng Li. "Multi-instance learning by treating instances as non-iid samples." Proceedings of the 26th annual international conference on machine learning. ACM, 2009.
