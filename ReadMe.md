@@ -22,7 +22,7 @@ Reading list on deep learning.  Ph.d life
 
 * **[MILES](http://ieeexplore.ieee.org/abstract/document/1717454/)** Chen, Yixin, Jinbo Bi, and James Ze Wang. "MILES: Multiple-instance learning via embedded instance selection." IEEE Transactions on Pattern Analysis and Machine Intelligence 28.12 (2006): 1931-1947.
 * **[NSK-SVM](http://sci2s.ugr.es/keel/pdf/algorithm/congreso/2002-Gartner-ICML.pdf)** Gärtner, Thomas, et al. "Multi-instance kernels." ICML. Vol. 2. 2002.
-* **[mi-Graph](http://delivery.acm.org/10.1145/1560000/1553534/p1249-zhou.pdf?ip=137.189.94.204&id=1553534&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2E63D3CA449C1BD759%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1521362000_3a52285aa4cce5528b0f0518fadbc91c)** Zhou, Zhi-Hua, Yu-Yin Sun, and Yu-Feng Li. "Multi-instance learning by treating instances as non-iid samples." Proceedings of the 26th annual international conference on machine learning. ACM, 2009. [implement](http://lamda.nju.edu.cn/code_miGraph.ashx)
+* **[mi-Graph](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.149.6808&rep=rep1&type=pdf)** Zhou, Zhi-Hua, Yu-Yin Sun, and Yu-Feng Li. "Multi-instance learning by treating instances as non-iid samples." Proceedings of the 26th annual international conference on machine learning. ACM, 2009. [implement](http://lamda.nju.edu.cn/code_miGraph.ashx)
 * **[BoW-SVM]()**
 * **[EMD-SVM](https://link.springer.com/content/pdf/10.1023%2FA%3A1026543900054.pdf)** Rubner, Yossi, Carlo Tomasi, and Leonidas J. Guibas. "The earth mover's distance as a metric for image retrieval." International journal of computer vision 40.2 (2000): 99-121.
 
@@ -39,4 +39,7 @@ Reading list on deep learning.  Ph.d life
 
 * **[ML-KNN](https://ac.els-cdn.com/S0031320307000027/1-s2.0-S0031320307000027-main.pdf?_tid=4aca996e-88bb-4a31-8efc-b590364adbd2&acdnat=1521359388_bb21b8697481230d67ebf257245dad8a)** Zhang, Min-Ling, and Zhi-Hua Zhou. "ML-KNN: A lazy learning approach to multi-label learning." Pattern recognition 40.7 (2007): 2038-2048.
 
-
+#### MIL in Deep Learning
+* **[Multi-Instance Deep Learning: Discover Discriminative Local Anatomies for Bodypart Recognition](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7398101)** Yan, Zhennan, et al. "Multi-instance deep learning: Discover discriminative local anatomies for bodypart recognition." IEEE transactions on medical imaging 35.5 (2016): 1332-1343.
+* **[MILCNN](https://arxiv.org/pdf/1610.03155.pdf)**  Sun, Miao, et al. "Multiple instance learning convolutional neural networks for object recognition." Pattern Recognition (ICPR), 2016 23rd International Conference on. IEEE, 2016.
+* **[Attention Deep MIL](https://arxiv.org/pdf/1802.04712.pdf)** Ilse, Maximilian, Jakub M. Tomczak, and Max Welling. "Attention-based Deep Multiple Instance Learning." arXiv preprint arXiv:1802.04712 (2018). :star::star::star::star::star::star:
