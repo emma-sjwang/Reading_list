@@ -43,3 +43,8 @@ Reading list on deep learning.  Ph.d life
 * **[Multi-Instance Deep Learning: Discover Discriminative Local Anatomies for Bodypart Recognition](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7398101)** Yan, Zhennan, et al. "Multi-instance deep learning: Discover discriminative local anatomies for bodypart recognition." IEEE transactions on medical imaging 35.5 (2016): 1332-1343.
 * **[MILCNN](https://arxiv.org/pdf/1610.03155.pdf)**  Sun, Miao, et al. "Multiple instance learning convolutional neural networks for object recognition." Pattern Recognition (ICPR), 2016 23rd International Conference on. IEEE, 2016.
 * **[Attention Deep MIL](https://arxiv.org/pdf/1802.04712.pdf)** Ilse, Maximilian, Jakub M. Tomczak, and Max Welling. "Attention-based Deep Multiple Instance Learning." arXiv preprint arXiv:1802.04712 (2018). :star::star::star::star::star::star:
+* **[MINN](https://ac.els-cdn.com/S0031320317303382/1-s2.0-S0031320317303382-main.pdf?_tid=a6cd7eba-7151-4cf6-9bae-7920c3e0ac75&acdnat=1521535813_58887e0c10d507eeab20ecc7e9b012e5)** Wang, Xinggang, et al. "Revisiting multiple instance neural networks." Pattern Recognition 74 (2018): 15-24.  :star::star::star::star::star:
+
+### SEMI-SUPERVISED LEARNING
+* **[unsupervised loss function](https://arxiv.org/pdf/1606.04586.pdf)** Sajjadi, Mehdi, Mehran Javanmardi, and Tolga Tasdizen. "Regularization with stochastic transformations and perturbations for deep semi-supervised learning." Advances in Neural Information Processing Systems. 2016. 
+* **[self-ensembling](https://arxiv.org/pdf/1610.02242.pdf)** Laine, Samuli, and Timo Aila. "Temporal ensembling for semi-supervised learning." arXiv preprint arXiv:1610.02242 (2016).
