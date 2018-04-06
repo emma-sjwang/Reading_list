@@ -48,3 +48,13 @@ Reading list on deep learning.  Ph.d life
 ### SEMI-SUPERVISED LEARNING
 * **[unsupervised loss function](https://arxiv.org/pdf/1606.04586.pdf)** Sajjadi, Mehdi, Mehran Javanmardi, and Tolga Tasdizen. "Regularization with stochastic transformations and perturbations for deep semi-supervised learning." Advances in Neural Information Processing Systems. 2016. 
 * **[self-ensembling](https://arxiv.org/pdf/1610.02242.pdf)** Laine, Samuli, and Timo Aila. "Temporal ensembling for semi-supervised learning." arXiv preprint arXiv:1610.02242 (2016).
+
+
+### Loss Function
+* **[loss function based on probability map](https://arxiv.org/abs/1804.01793)** Jetley, Saumya, Naila Murray, and Eleonora Vig. "End-to-end saliency mapping via probability distribution prediction." Proceedings of Computer Vision and Pattern Recognition 2016 (2016): 5753-5761. 
+* **[loss function for image classification](https://arxiv.org/abs/1803.02988)** Wan, Weitao, et al. "Rethinking Feature Distribution for Loss Functions in Image Classification." arXiv preprint arXiv:1803.02988 (2018). [CVPR 2018]() 
+* **[Crystal Loss(softmax+l\_2 norm)](https://arxiv.org/pdf/1804.01159.pdf)** Crystal Loss and Quality Pooling for Unconstrained Face Verification and Recognition.  submitted to TPAMI 2018. [previous version](https://arxiv.org/abs/1703.09507)
+* **[L-GM loss](https://arxiv.org/pdf/1803.02988.pdf)**  Wan, Weitao, et al. "Rethinking Feature Distribution for Loss Functions in Image Classification." arXiv preprint arXiv:1803.02988 (2018). [CVPR 2018]()
+
+
+ 
