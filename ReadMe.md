@@ -54,7 +54,9 @@ Reading list on deep learning.  Ph.d life
 * **[loss function based on probability map](https://arxiv.org/abs/1804.01793)** Jetley, Saumya, Naila Murray, and Eleonora Vig. "End-to-end saliency mapping via probability distribution prediction." Proceedings of Computer Vision and Pattern Recognition 2016 (2016): 5753-5761. 
 * **[loss function for image classification](https://arxiv.org/abs/1803.02988)** Wan, Weitao, et al. "Rethinking Feature Distribution for Loss Functions in Image Classification." arXiv preprint arXiv:1803.02988 (2018). [CVPR 2018]() 
 * **[Crystal Loss(softmax+l\_2 norm)](https://arxiv.org/pdf/1804.01159.pdf)** Crystal Loss and Quality Pooling for Unconstrained Face Verification and Recognition.  submitted to TPAMI 2018. [previous version](https://arxiv.org/abs/1703.09507)
-* **[L-GM loss](https://arxiv.org/pdf/1803.02988.pdf)**  Wan, Weitao, et al. "Rethinking Feature Distribution for Loss Functions in Image Classification." arXiv preprint arXiv:1803.02988 (2018). [CVPR 2018]()
+* **[L-GM loss for image classification](https://arxiv.org/pdf/1803.02988.pdf)**  Wan, Weitao, et al. "Rethinking Feature Distribution for Loss Functions in Image Classification." arXiv preprint arXiv:1803.02988 (2018). [CVPR 2018]() :star::star::star::star::star: [implement](https://github.com/WeitaoVan/L-GM-loss)
+* **[ring loss for face recognation](https://arxiv.org/abs/1803.00130)** Zheng, Yutong, Dipan K. Pal, and Marios Savvides. "Ring loss: Convex Feature Normalization for Face Recognition." arXiv preprint arXiv:1803.00130 (2018). [CVPR 2018]() :star::star::star::star::star: [implement](https://github.com/Paralysis/ringloss)
 
-
+### Feature Extraction
+* **[Adaptive forward-backward greedy algorithm](http://ieeexplore.ieee.org/abstract/document/5895111/)** Zhang, Tong. "Adaptive forward-backward greedy algorithm for learning sparse representations." IEEE transactions on information theory 57.7 (2011): 4689-4708. 
  
