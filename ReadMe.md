@@ -2,6 +2,35 @@
 Reading list on deep learning.  Ph.d life
 
 ***
+## optic disk and optic cup segmentation
+* [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf)
+### segmentation
+* a survey 2017 almost traditional methods [Segmentation Techniques for Computer-Aided Diagnosis of Glaucoma: A Review](https://link.springer.com/content/pdf/10.1007\%2F978-981-10-8569-7_18.pdf) :star::star:
+
+* based on structural and gray level properties [Segmentation of optic disk and optic cup from digital fundus images for the assessment of glaucoma](https://ac.els-cdn.com/S1746809415001512/1-s2.0-S1746809415001512-main.pdf?_tid=28900699-9a58-4929-8c0c-6268f84bdaf4&acdnat=1529743095_1f81babc1977bd510cafed242e7f2ac3) no deep learning but very useful ideas. :star::star::star::star:
+
+* convolutional filter + entropy sampling + convex hull transformation [Glaucoma detection using entropy sampling and ensemble learning for automatic optic cup and disc segmentation
+](https://ac.els-cdn.com/S0895611116300775/1-s2.0-S0895611116300775-main.pdf?_tid=6678eb0e-7fcd-4a4e-89f6-fe8cad5730f4&acdnat=1529756396_01824474b64b63bab5be415a9f933f00) too complicated :star::star::star:
+
+* semi-supervised [Semi-supervised Segmentation of Optic Cup in Retinal Fundus Images Using Variational Autoencoder](https://link.springer.com/content/pdf/10.1007\%2F978-3-319-66185-8_9.pdf) MICCAI 2017 :star::star::star::star:
+
+* [Joint Optic Disc and Cup Segmentation Based on Multi-label Deep Network and Polar Transformation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8252743) 2018 TMI :star::star::star::star::star:
+* [Deep Retinal Image Understanding](https://arxiv.org/pdf/1609.01103.pdf) 2016 MICCAI :star::star::star::star::star:
+
+
+
+### domain adaptation
+* [Adversarial Discriminative Domain Adaptation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf) CVPR 2017 :star::star::star::star:
+* [Adversarial Feature Augmentation for Unsupervised Domain Adaptation](https://arxiv.org/abs/1711.08561) CVPR 2018. :star::star::star::star::star:
+* [Unsupervised Pixel?Level Domain Adaptation with Generative Adversarial Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bousmalis_Unsupervised_Pixel-Level_Domain_CVPR_2017_paper.pdf) CVPR 2017  :star::star::star::star:
+* [Boosting Domain Adaptation by Discovering Latent Domains](https://arxiv.org/abs/1805.01386) CVPR 2018.oral 
+
+
+
+### patch-level reinforesment learning
+
+
+***
 ## MIML (multi-instance multi label learning)
 * **Deep MIML** Feng, Ji, and Zhi-Hua Zhou. "Deep MIML Network." AAAI. 2017.
 
@@ -55,7 +84,29 @@ Reading list on deep learning.  Ph.d life
 * **[L-GM loss for image classification](https://arxiv.org/abs/1803.02988)** Wan, Weitao, et al. "Rethinking Feature Distribution for Loss Functions in Image Classification." arXiv preprint arXiv:1803.02988 (2018). [CVPR 2018]() :star::star::star::star::star: [implement](https://github.com/WeitaoVan/L-GM-loss)
 * **[Crystal Loss(softmax+l\_2 norm)](https://arxiv.org/pdf/1804.01159.pdf)** Crystal Loss and Quality Pooling for Unconstrained Face Verification and Recognition.  submitted to TPAMI 2018. [previous version](https://arxiv.org/abs/1703.09507)
 * **[ring loss for face recognation](https://arxiv.org/abs/1803.00130)** Zheng, Yutong, Dipan K. Pal, and Marios Savvides. "Ring loss: Convex Feature Normalization for Face Recognition." arXiv preprint arXiv:1803.00130 (2018). [CVPR 2018]() :star::star::star::star::star: [implement](https://github.com/Paralysis/ringloss)
+* **[center loss](https://ydwen.github.io/papers/WenECCV16.pdf)** Wen, Yandong, et al. "A discriminative feature learning approach for deep face recognition." European Conference on Computer Vision. Springer, Cham, 2016.   :star::star::star::star::star:
 
 ### Feature Extraction
 * **[Adaptive forward-backward greedy algorithm](http://ieeexplore.ieee.org/abstract/document/5895111/)** Zhang, Tong. "Adaptive forward-backward greedy algorithm for learning sparse representations." IEEE transactions on information theory 57.7 (2011): 4689-4708. 
  
+ 
+## Unsupervised learning
+### AAE 
+* **[AAE](https://arxiv.org/pdf/1511.05644.pdf)** Makhzani, Alireza, et al. "Adversarial autoencoders." arXiv preprint arXiv:1511.05644 (2015).
+
+### GAN
+
+## pooling
+* **[ContextLocNet: Context-Aware Deep Network Models for Weakly Supervised Localization](https://link.springer.com/content/pdf/10.1007\%2F978-3-319-46454-1_22.pdf)**
+
+
+## Weakly Supervised Learning
+* **[Weakly Supervised Object Localization with Progressive Domain Adaptation](https://www.cv-foundation.org/openaccess/content_cvpr_2016/app/S15-30.pdf)** classification and detection 2 steps. only image labels. [CVPR 2016]
+* **[ICCV 2015 Deep Learning Face Attributes in the Wild ]**
+* **[CVPR 2017 Weakly Supervised Cascaded Convolutional Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Diba_Weakly_Supervised_Cascaded_CVPR_2017_paper.pdf)**
+* **[CVPR 2016 Large Scale Semi-supervised Object Detection using Visual and Semantic Knowledge Transfer](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Tang_Large_Scale_Semi-Supervised_CVPR_2016_paper.pdf)** 
+* **[CVPR 2018 Class Peak Response](Class Peak Response)**
+
+
+## Semi-supervised
+* http://ruder.io/semi-supervised/
