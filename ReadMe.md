@@ -29,6 +29,7 @@ Reading list on deep learning.  Ph.d life
 * [Unsupervised Domain Adaptation with Similarity Learning]() for classification
 
 [Domain Adaptation for Segmentation]
+
 *[CycleGAN Multimodal, shape constraints ](https://arxiv.org/pdf/1802.09655.pdf)  CVPR2018  :star::star::star::star::star:
 
 
