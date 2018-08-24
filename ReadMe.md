@@ -24,7 +24,12 @@ Reading list on deep learning.  Ph.d life
 * [Adversarial Feature Augmentation for Unsupervised Domain Adaptation](https://arxiv.org/abs/1711.08561) CVPR 2018. :star::star::star::star::star:
 * [Unsupervised Pixel?Level Domain Adaptation with Generative Adversarial Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bousmalis_Unsupervised_Pixel-Level_Domain_CVPR_2017_paper.pdf) CVPR 2017  :star::star::star::star:
 * [Boosting Domain Adaptation by Discovering Latent Domains](https://arxiv.org/abs/1805.01386) CVPR 2018.oral 
+* [Learning to Adapt Structured Output Space for Semantic Segmentation]().  CVPR 2018.   GTA IoU: 42.4\%    SYNTHIA IoU: 46.7\%
+* [Conditional Generative Adversarial Network for Structured Domain Adaptation]() CVPR 2018.   GTA IoU 44.5\%.    SYNTHIA IoU: 41.2\%
+* [Unsupervised Domain Adaptation with Similarity Learning]() for classification
 
+[Domain Adaptation for Segmentation]
+*[CycleGAN Multimodal, shape constraints ](https://arxiv.org/pdf/1802.09655.pdf)  CVPR2018  :star::star::star::star::star:
 
 
 ### patch-level reinforesment learning
