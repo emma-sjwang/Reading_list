@@ -1,7 +1,40 @@
 # Reading_list
-Reading list on deep learning.  Ph.d life
 
 ***
+
+## Unsupervised learning
+### Domain Generalization
+
+### Domain Adaptation
+
+### AAE 
+* **[AAE](https://arxiv.org/pdf/1511.05644.pdf)** Makhzani, Alireza, et al. "Adversarial autoencoders." arXiv preprint arXiv:1511.05644 (2015).
+
+### GAN
+
+## pooling
+* **[ContextLocNet: Context-Aware Deep Network Models for Weakly Supervised Localization](https://link.springer.com/content/pdf/10.1007\%2F978-3-319-46454-1_22.pdf)**
+
+
+## Weakly Supervised Learning
+* **[Weakly Supervised Object Localization with Progressive Domain Adaptation](https://www.cv-foundation.org/openaccess/content_cvpr_2016/app/S15-30.pdf)** classification and detection 2 steps. only image labels. [CVPR 2016]
+* **[ICCV 2015 Deep Learning Face Attributes in the Wild ]**
+* **[CVPR 2017 Weakly Supervised Cascaded Convolutional Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Diba_Weakly_Supervised_Cascaded_CVPR_2017_paper.pdf)**
+* **[CVPR 2016 Large Scale Semi-supervised Object Detection using Visual and Semantic Knowledge Transfer](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Tang_Large_Scale_Semi-Supervised_CVPR_2016_paper.pdf)** 
+* **[CVPR 2018 Class Peak Response](Class Peak Response)**
+
+
+## Semi-supervised
+* http://ruder.io/semi-supervised/
+
+
+
+
+
+
+
+
+
 ## optic disk and optic cup segmentation
 * [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf)
 ### segmentation
@@ -96,23 +129,4 @@ Reading list on deep learning.  Ph.d life
 * **[Adaptive forward-backward greedy algorithm](http://ieeexplore.ieee.org/abstract/document/5895111/)** Zhang, Tong. "Adaptive forward-backward greedy algorithm for learning sparse representations." IEEE transactions on information theory 57.7 (2011): 4689-4708. 
  
  
-## Unsupervised learning
-### AAE 
-* **[AAE](https://arxiv.org/pdf/1511.05644.pdf)** Makhzani, Alireza, et al. "Adversarial autoencoders." arXiv preprint arXiv:1511.05644 (2015).
 
-### GAN
-
-## pooling
-* **[ContextLocNet: Context-Aware Deep Network Models for Weakly Supervised Localization](https://link.springer.com/content/pdf/10.1007\%2F978-3-319-46454-1_22.pdf)**
-
-
-## Weakly Supervised Learning
-* **[Weakly Supervised Object Localization with Progressive Domain Adaptation](https://www.cv-foundation.org/openaccess/content_cvpr_2016/app/S15-30.pdf)** classification and detection 2 steps. only image labels. [CVPR 2016]
-* **[ICCV 2015 Deep Learning Face Attributes in the Wild ]**
-* **[CVPR 2017 Weakly Supervised Cascaded Convolutional Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Diba_Weakly_Supervised_Cascaded_CVPR_2017_paper.pdf)**
-* **[CVPR 2016 Large Scale Semi-supervised Object Detection using Visual and Semantic Knowledge Transfer](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Tang_Large_Scale_Semi-Supervised_CVPR_2016_paper.pdf)** 
-* **[CVPR 2018 Class Peak Response](Class Peak Response)**
-
-
-## Semi-supervised
-* http://ruder.io/semi-supervised/
