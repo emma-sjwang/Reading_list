@@ -1,19 +1,31 @@
 # Unsupervised Learning 
 
 ## Domain Generalization (DG)
-### 2020
-
+### Medical related
+- **[IEEE-TMI/2020]** [MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data](https://github.com/liuquande/MS-Net): **Supervised** domain specific BN. **Task**: Prostate Segmentation
+- **[Neurocomputing/2019]** [USE-Net: Incorporating Squeeze-and-Excitation blocks into U-Net for prostate zonal segmentation of multi-institutional MRI datasets](https://www.sciencedirect.com/science/article/pii/S0925231219309245): **Supervised**
+- **[MIDL-Abstract/2019]** [A Strong Baseline for Domain Adaptation and Generalization in Medical Imaging](https://openreview.net/forum?id=S1gvm2E-t4)
+- **[MICCAI/2018]** [Alifelong  learning  approach  to  brain  mr  segmentation  across  scannersand  protocols](https://arxiv.org/pdf/1805.10170.pdf): DSBN. **Brain** structure segmentation in **MR** images
 
 ## Domain Adaptation (DA)
 
 ### Medical related
 
 - **[CVPR/2020]** [Unsupervised Instance Segmentation in Microscopy Images via Panoptic DomainAdaptation and Task Re-weighting](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Unsupervised_Instance_Segmentation_in_Microscopy_Images_via_Panoptic_Domain_Adaptation_CVPR_2020_paper.pdf): CycleGAN + 3 kinds of (GRL) adaptation: image, instance, and semantic  **Tasks**: nuclei segmentation of histopathology patch image
+- **[ICCV/2019]** [Semantic-Transferable Weakly-Supervised Endoscopic Lesions Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dong_Semantic-Transferable_Weakly-Supervised_Endoscopic_Lesions_Segmentation_ICCV_2019_paper.pdf): Endoscopic Lesions Segmentation. weakly supervised
+- **BEAL [MICCAI/2019]** [Boundary and Entropy-Driven Adversarial Learning for Fundus Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_12): boundary and entropy based adversairl learning. on **Fundus image segmentation**
+- **[MICCAI/2019]** [Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_29). **Tasks**: CT-MR. **Liver** segmentation.
 - **SIFA [AAAI/2019]** [Synergistic image and feature adaptation:  Towardscross-modality  domain  adaptation  for  medical  image  seg-mentation](https://arxiv.org/abs/1901.08211): CycleGAN variance. shared encoder for segfmenattion and image generation. **Tasks**: CT-MR 
+- **[IEEE-TMI/2019]** [Patch-Based Output Space Adversarial Learning for Joint Optic Disc and Cup Segmentation](https://ieeexplore.ieee.org/abstract/document/8643416): output space adversarial learning. **Fundus image segmentation**
 - **SeUDA [MICCAI workshop/2018]** [Semantic-Aware Generative Adversarial Netsfor Unsupervised Domain Adaptationin Chest X-ray Segmentation](https://arxiv.org/pdf/1806.00600.pdf):CycleGAN **Tasks**: different chest X-ray
 - **[MICCAI/2018]** [Adversarial Domain Adaptation for Classification of Prostate Histopathology Whole-Slide Images](https://arxiv.org/abs/1806.01357):feature-level adverarial learning. **Task**: whole slide Prostate image classification
+- **[MICCAI/2018]** [Tumor-Aware, Adversarial DomainAdaptation from CT to MRI for LungCancer Segmentation](https://link.springer.com/content/pdf/10.1007%2F978-3-030-00934-2_86.pdf): CT<-->MRI. tumor segmentation --> semi-supervised. **Lung cancer**
 - **TD-GAN [MICCAI/2018]** [Task Driven Generative Modeling for Unsupervised Domain Adaptation: Application to X-ray Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_67):CycleGAN+Segmentation Net **Task**: CT-X-ray
+- **SeUDA [MICCAI-Workshop/2018]** [Semantic-aware  gen-erative  adversarial  nets  for  unsupervised  domain  adaptation  in  chestx-ray  segmentation](https://arxiv.org/abs/1806.00600)
+- **[MIDL/2018]** [Domain Adaptation for MRI Organ Segmentation using Reverse Classification Accuracy](https://arxiv.org/abs/1806.00363): supervised domain adaptation:  two-center MR database, organ segmentation
+- **[arxiv/2018]** [Unsupervised domain adaptation for medical imaging segmentation with self-ensembling](https://arxiv.org/abs/1811.06042v1): multi-center data.  Spinal Cord Gray Matter 
 - **[JBHI/2017]** [Epithelium-Stroma Classification via Convolutional Neural Networks and Unsupervised Domain Adaptation in Histopathological Images ](https://ieeexplore.ieee.org/document/7893702/)
+- **[IPMI/2016]** [Unsupervised domain adaptation in brain lesionsegmentation with adversarial networks](https://arxiv.org/pdf/1612.08894.pdf): MR-->MR. **Brain**
 
 
 
@@ -31,8 +43,10 @@
 - **SSF-DAN [ICCV/2019]** [SSF-DAN: Separated Semantic Feature based Domain Adaptation Network forSemantic Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Du_SSF-DAN_Separated_Semantic_Feature_Based_Domain_Adaptation_Network_for_Semantic_ICCV_2019_paper.pdf): Semantic-wise Separable Discriminator. **Datasets**: GTA5, Synthiam, Cityscapes.
 - **MaxSquare [ICCV/2019]** [Domain Adaptation for Semantic Segmentation with Maximum Squares Loss](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Domain_Adaptation_for_Semantic_Segmentation_With_Maximum_Squares_Loss_ICCV_2019_paper.pdf): Change loss function and entropy calculation way with square and margin with multi-scale training. **Datasets**: Office-31, Sources[GTA5, SYNTHIA],  Target[Cityscapes validation set]
 - **Patch alignment [ICCV/2019]** [Domain Adaptation for Structured Output via DDiscriminative Patch Representations](https://arxiv.org/pdf/1901.05427.pdf): performance is not so good. **Datasets**: Sources[GTA5, SYNTHIA],  Target[Cityscapes validation set]
-- **(TGCF-DA [ICCV/2019]** [Self-Ensembling with GAN-based Data Augmentation for Domain Adaptation inSemantic Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Self-Ensembling_With_GAN-Based_Data_Augmentation_for_Domain_Adaptation_in_Semantic_ICCV_2019_paper.pdf): image transfer + mean teacher Datasets: GTA5, SYNTHIA, Cityscapes
+- **(TGCF-DA [ICCV/2019]** [Self-Ensembling with GAN-based Data Augmentation for Domain Adaptation inSemantic Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Self-Ensembling_With_GAN-Based_Data_Augmentation_for_Domain_Adaptation_in_Semantic_ICCV_2019_paper.pdf): image transfer + mean teacher **Datasets**: GTA5, SYNTHIA, Cityscapes
 - **ADVENT [CVPR/2019]** [ADVENT: Adversarial Entropy Minimization for Domain Adaptationin Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf): Then Adversarial learning based on entropy maps between source and target by a discriminator. 
+- **CrDoCo [CVPR/2019]** [CrDoCo: Pixel-level Domain Transfer with Cross-Domain Consistency](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_CrDoCo_Pixel-Level_Domain_Transfer_With_Cross-Domain_Consistency_CVPR_2019_paper.pdf): Cycle-GAN+2 segmentators. **Datasets**:GTA5, SYNTHIA, CITYSCAPES
+- **[CVPR/2019]** [Bidirectional Learning for Domain Adaptation of Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Bidirectional_Learning_for_Domain_Adaptation_of_Semantic_Segmentation_CVPR_2019_paper.pdf): Cycle-GAN+ sgementatio network train simutenously. **Datasets**:GTA5, SYNTHIA, CITYSCAPES
 - **[CVPR/2019]** [Not All Areas Are Equal: Transfer Learning for Semantic Segmentation viaHierarchical Region Selection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_Not_All_Areas_Are_Equal_Transfer_Learning_for_Semantic_Segmentation_CVPR_2019_paper.pdf) **Datasets**: GTAV + CITYSCAPES→CITYSCAPES, SYNTHIA +CITYSCAPES→CITYSCAPES and GTAV + SYNTHIA+ CITYSCAPES→CITYSCAPES.
 - **SPIGAN [ICLR/2019]** [SPIGAN: Privileged Adversarial Learning from Simulation](https://openreview.net/pdf?id=rkxoNnC5FQ) **Datasets**: SYNTHIA-RAND-CITYSCAPES.
 - **AdaptSegNet [CVPR/2018]** [Learning to Adapt Structured Output Space for Semantic Segmentation](http://openaccess.thecvf.com/content_cvpr_2018/papers/Tsai_Learning_to_Adapt_CVPR_2018_paper.pdf): multi-level output adversarial learning. **Datasets**: GTA5, SYNTHIA, Cross-City
