@@ -1,6 +1,16 @@
 # Unsupervised Learning 
 
 ## Domain Generalization (DG)
+
+- **[ECCV/2020]** [Self-Challenging Improves Cross-Domain Generalization]
+- **[ECCV/2020]** [Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization]
+- **[ECCV/2020]** [Learning to Balance Specificity and Invariance for In and Out of Domain Generalization]
+- **[ECCV/2020]** [Learning to Learn with Variational Information Bottleneck for Domain Generalization]
+- **[ECCV/2020]** [Generalizing Person Re-Identification by Camera-Aware Invariance Learning and Cross-Domain Mixup]
+- **[ECCV/2020]** [Learning to Generate Novel Domains for Domain Generalization]
+- **[ECCV/2020]** [Learning to Optimize Domain Specific Normalization for Domain Generalization]
+- **[ECCV/2020]** [HGNet: Hybrid Generative Network for Zero-shot Domain Adaptation]
+- 
 ### Medical related
 - **[IEEE-TMI/2020]** [MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data](https://github.com/liuquande/MS-Net): **Supervised** domain specific BN. **Task**: Prostate Segmentation
 - **[Neurocomputing/2019]** [USE-Net: Incorporating Squeeze-and-Excitation blocks into U-Net for prostate zonal segmentation of multi-institutional MRI datasets](https://www.sciencedirect.com/science/article/pii/S0925231219309245): **Supervised**
@@ -8,9 +18,46 @@
 - **[MICCAI/2018]** [Alifelong  learning  approach  to  brain  mr  segmentation  across  scannersand  protocols](https://arxiv.org/pdf/1805.10170.pdf): DSBN. **Brain** structure segmentation in **MR** images
 
 ## Domain Adaptation (DA)
-
+ECCV2020 37 DA related papers
+- **[ECCV/2020]** [Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification]
+- **[ECCV/2020]** [Label Propagation with Augmented Anchors: A Simple Semi-Supervised Learning baseline for Unsupervised Domain Adaptation]
+- **[ECCV/2020]** [Domain2Vec: Domain Embedding for Unsupervised Domain Adaptation]
+- **[ECCV/2020]** [Unsupervised Domain Attention Adaptation Network for Caricature Attribute Recognition]
+- **[ECCV/2020]** [Deep Credible Metric Learning for Unsupervised Domain Adaptation Person Re-identification]
+- **[ECCV/2020]** [Learning to Combine: Knowledge Aggregation for Multi-Source Domain Adaptation]
+- **[ECCV/2020]** [CSCL: Critical Semantic-Consistent Learning for Unsupervised Domain Adaptation]
+- **[ECCV/2020]** [Monocular 3D Object Detection via Feature Domain Adaptation]
+- **[ECCV/2020]** [A Balanced and Uncertainty-aware Approach for Partial Domain Adaptation]
+- **[ECCV/2020]** [Unsupervised Domain Adaptation with Noise Resistible Mutual-Training for Person Re-identification]
+- **[ECCV/2020]** [Shuffle and Attend: Video Domain Adaptation]
+- **[ECCV/2020]** [Class-Incremental Domain Adaptation]
+- **[ECCV/2020]** [Spatial Attention Pyramid Network for Unsupervised Domain Adaptation]
+- **[ECCV/2020]** [Two-phase Pseudo Label Densification for Self-training based Domain Adaptation]
+- **[ECCV/2020]** [Attract, Perturb, and Explore: Learning a Feature Alignment Network for Semi-supervised Domain Adaptation]
+- **[ECCV/2020]** [Curriculum Manager for Source Selection in Multi-Source Domain Adaptation]
+- **[ECCV/2020]** [Learning to Detect Open Classes for Universal Domain Adaptation]
+- **[ECCV/2020]** [Contextual-Relation Consistent Domain Adaptation for Semantic Segmentation]
+- **[ECCV/2020]** [Partially-Shared Variational Auto-encoders for Unsupervised Domain Adaptation with Target Shift]
+- **[ECCV/2020]** [Online Meta-Learning for Multi-Source and Semi-Supervised Domain Adaptation]
+- **[ECCV/2020]** [Self-Supervised CycleGAN for Object-Preserving Image-to-Image Domain Adaptation]
+- **[ECCV/2020]** [Transferring Domain Shift Across Tasks for Zero-shot Domain adaptation]
+- **[ECCV/2020]** [YOLO in the Dark - Domain Adaptation Method for Merging Multiple Models -]
+- **[ECCV/2020]** [Minimum Class Confusion for Versatile Domain Adaptation]
+- **[ECCV/2020]** [Learning from Scale-Invariant Examples for Domain Adaptation in Semantic Segmentation]
+- **[ECCV/2020]** [Task-conditioned Domain Adaptation for Pedestrian Detection in Thermal Imagery]
+- **[ECCV/2020]** [Mind the Discriminability: Asymmetric Adversarial Domain Adaptation]
+- **[ECCV/2020]** [Universal Self-Training for Unsupervised Domain Adaptation]
+- **[ECCV/2020]** [Domain Adaptation through Task Distillation]
+- **[ECCV/2020]** [Multi-Source Open-Set Deep Adversarial Domain Adaptation]
+- **[ECCV/2020]** [HGNet: Hybrid Generative Network for Zero-shot Domain Adaptation]
+- **[ECCV/2020]** [Unsupervised Domain Adaptation in the Dissimilarity Space for Person Re-identification]
+- **[ECCV/2020]** [Label-Driven Reconstruction for Domain Adaptation in Semantic Segmentation]
+- **[ECCV/2020]** [High Resolution Zero-Shot Domain Adaptation of Synthetically Rendered Face Images]
+- **[ECCV/2020]** [Unsupervised Monocular Depth Estimation for Night-time Images using Adversarial Domain Feature Adaptation]
+- **[ECCV/2020]** [Dual Mixup Regularized Learning for Adversarial Domain Adaptation]
+- 
 ### Medical related
-
+- **[ECCV/2020]** [Skin Segmentation from NIR Images using Unsupervised Domain Adaptation through Generative Latent Search]
 - **[CVPR/2020]** [Unsupervised Instance Segmentation in Microscopy Images via Panoptic DomainAdaptation and Task Re-weighting](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Unsupervised_Instance_Segmentation_in_Microscopy_Images_via_Panoptic_Domain_Adaptation_CVPR_2020_paper.pdf): CycleGAN + 3 kinds of (GRL) adaptation: image, instance, and semantic  **Tasks**: nuclei segmentation of histopathology patch image
 - **[ICCV/2019]** [Semantic-Transferable Weakly-Supervised Endoscopic Lesions Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dong_Semantic-Transferable_Weakly-Supervised_Endoscopic_Lesions_Segmentation_ICCV_2019_paper.pdf): Endoscopic Lesions Segmentation. weakly supervised
 - **BEAL [MICCAI/2019]** [Boundary and Entropy-Driven Adversarial Learning for Fundus Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_12): boundary and entropy based adversairl learning. on **Fundus image segmentation**
