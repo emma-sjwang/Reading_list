@@ -2,13 +2,13 @@
 
 ## Domain Generalization (DG)
 
-- **[ECCV/2020]** [Self-Challenging Improves Cross-Domain Generalization]
+- **[ECCV/2020(oral)]** [Self-Challenging Improves Cross-Domain Generalization](https://arxiv.org/abs/2007.02454)
 - **[ECCV/2020]** [Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization]
 - **[ECCV/2020]** [Learning to Balance Specificity and Invariance for In and Out of Domain Generalization]
 - **[ECCV/2020]** [Learning to Learn with Variational Information Bottleneck for Domain Generalization]
 - **[ECCV/2020]** [Generalizing Person Re-Identification by Camera-Aware Invariance Learning and Cross-Domain Mixup]
-- **[ECCV/2020]** [Learning to Generate Novel Domains for Domain Generalization]
-- **[ECCV/2020]** [Learning to Optimize Domain Specific Normalization for Domain Generalization]
+- **[ECCV/2020]** [Learning to Generate Novel Domains for Domain Generalization](https://arxiv.org/abs/2007.03304)
+- **[ECCV/2020]** [Learning to Optimize Domain Specific Normalization for Domain Generalization](https://arxiv.org/abs/1907.04275)
 - **[ECCV/2020]** [HGNet: Hybrid Generative Network for Zero-shot Domain Adaptation]
 - 
 ### Medical related
@@ -27,35 +27,35 @@ ECCV2020 37 DA related papers
 - **[ECCV/2020]** [Learning to Combine: Knowledge Aggregation for Multi-Source Domain Adaptation]
 - **[ECCV/2020]** [CSCL: Critical Semantic-Consistent Learning for Unsupervised Domain Adaptation]
 - **[ECCV/2020]** [Monocular 3D Object Detection via Feature Domain Adaptation]
-- **[ECCV/2020]** [A Balanced and Uncertainty-aware Approach for Partial Domain Adaptation]
+- **[ECCV/2020]** [A Balanced and Uncertainty-aware Approach for Partial Domain Adaptation](https://arxiv.org/abs/2003.02541)
 - **[ECCV/2020]** [Unsupervised Domain Adaptation with Noise Resistible Mutual-Training for Person Re-identification]
 - **[ECCV/2020]** [Shuffle and Attend: Video Domain Adaptation]
 - **[ECCV/2020]** [Class-Incremental Domain Adaptation]
-- **[ECCV/2020]** [Spatial Attention Pyramid Network for Unsupervised Domain Adaptation]
+- **[ECCV/2020]** [Spatial Attention Pyramid Network for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2003.12979.pdf)
 - **[ECCV/2020]** [Two-phase Pseudo Label Densification for Self-training based Domain Adaptation]
 - **[ECCV/2020]** [Attract, Perturb, and Explore: Learning a Feature Alignment Network for Semi-supervised Domain Adaptation]
-- **[ECCV/2020]** [Curriculum Manager for Source Selection in Multi-Source Domain Adaptation]
+- **[ECCV/2020]** [Curriculum Manager for Source Selection in Multi-Source Domain Adaptation](https://arxiv.org/pdf/2007.01261.pdf)
 - **[ECCV/2020]** [Learning to Detect Open Classes for Universal Domain Adaptation]
-- **[ECCV/2020]** [Contextual-Relation Consistent Domain Adaptation for Semantic Segmentation]
-- **[ECCV/2020]** [Partially-Shared Variational Auto-encoders for Unsupervised Domain Adaptation with Target Shift]
-- **[ECCV/2020]** [Online Meta-Learning for Multi-Source and Semi-Supervised Domain Adaptation]
+- **[ECCV/2020]** [Contextual-Relation Consistent Domain Adaptation for Semantic Segmentation](https://arxiv.org/abs/2007.02424): local alignment
+- **[ECCV/2020]** [Partially-Shared Variational Auto-encoders for Unsupervised Domain Adaptation with Target Shift](https://arxiv.org/pdf/2001.07895.pdf)
+- **[ECCV/2020]** [Online Meta-Learning for Multi-Source and Semi-Supervised Domain Adaptation](https://arxiv.org/abs/2004.04398)
 - **[ECCV/2020]** [Self-Supervised CycleGAN for Object-Preserving Image-to-Image Domain Adaptation]
 - **[ECCV/2020]** [Transferring Domain Shift Across Tasks for Zero-shot Domain adaptation]
-- **[ECCV/2020]** [YOLO in the Dark - Domain Adaptation Method for Merging Multiple Models -]
-- **[ECCV/2020]** [Minimum Class Confusion for Versatile Domain Adaptation]
+- **[ECCV/2020]** [YOLO in the Dark - Domain Adaptation Method for Merging Multiple Models]
+- **[ECCV/2020]** [Minimum Class Confusion for Versatile Domain Adaptation](https://arxiv.org/abs/1912.03699)
 - **[ECCV/2020]** [Learning from Scale-Invariant Examples for Domain Adaptation in Semantic Segmentation]
 - **[ECCV/2020]** [Task-conditioned Domain Adaptation for Pedestrian Detection in Thermal Imagery]
 - **[ECCV/2020]** [Mind the Discriminability: Asymmetric Adversarial Domain Adaptation]
 - **[ECCV/2020]** [Universal Self-Training for Unsupervised Domain Adaptation]
 - **[ECCV/2020]** [Domain Adaptation through Task Distillation]
-- **[ECCV/2020]** [Multi-Source Open-Set Deep Adversarial Domain Adaptation]
+- **[ECCV/2020]** [Multi-Source Open-Set Deep Adversarial Domain Adaptation](https://dipeshtamboli.github.io/blog/2020/Multi-Source-Open-Set-Deep-Adversarial-Domain-Adaptation/)
 - **[ECCV/2020]** [HGNet: Hybrid Generative Network for Zero-shot Domain Adaptation]
 - **[ECCV/2020]** [Unsupervised Domain Adaptation in the Dissimilarity Space for Person Re-identification]
-- **[ECCV/2020]** [Label-Driven Reconstruction for Domain Adaptation in Semantic Segmentation]
-- **[ECCV/2020]** [High Resolution Zero-Shot Domain Adaptation of Synthetically Rendered Face Images]
+- **[ECCV/2020]** [Label-Driven Reconstruction for Domain Adaptation in Semantic Segmentation](https://arxiv.org/abs/2003.04614)
+- **[ECCV/2020]** [High Resolution Zero-Shot Domain Adaptation of Synthetically Rendered Face Images](https://arxiv.org/abs/2006.15031)
 - **[ECCV/2020]** [Unsupervised Monocular Depth Estimation for Night-time Images using Adversarial Domain Feature Adaptation]
-- **[ECCV/2020]** [Dual Mixup Regularized Learning for Adversarial Domain Adaptation]
-- 
+- **[ECCV/2020]** [Dual Mixup Regularized Learning for Adversarial Domain Adaptation](https://arxiv.org/abs/2007.03141)
+
 ### Medical related
 - **[ECCV/2020]** [Skin Segmentation from NIR Images using Unsupervised Domain Adaptation through Generative Latent Search]
 - **[CVPR/2020]** [Unsupervised Instance Segmentation in Microscopy Images via Panoptic DomainAdaptation and Task Re-weighting](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Unsupervised_Instance_Segmentation_in_Microscopy_Images_via_Panoptic_Domain_Adaptation_CVPR_2020_paper.pdf): CycleGAN + 3 kinds of (GRL) adaptation: image, instance, and semantic  **Tasks**: nuclei segmentation of histopathology patch image
