@@ -18,6 +18,9 @@
 - **[MICCAI/2018]** [Alifelong  learning  approach  to  brain  mr  segmentation  across  scannersand  protocols](https://arxiv.org/pdf/1805.10170.pdf): DSBN. **Brain** structure segmentation in **MR** images
 
 ## Domain Adaptation (DA)
+
+- **[Arxiv/202007]** [Dual Mixup Regularized Learning forAdversarial Domain Adaptation](https://arxiv.org/pdf/2007.03141.pdf): mixup on images and domains. 
+
 ECCV2020 37 DA related papers
 - **[ECCV/2020]** [Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification]
 - **[ECCV/2020]** [Label Propagation with Augmented Anchors: A Simple Semi-Supervised Learning baseline for Unsupervised Domain Adaptation]
@@ -156,4 +159,4 @@ ECCV2020 37 DA related papers
 
 
 ### 3D Semantic Segmentation/Point cloud
-- **xMUDA [CVPR/2020]** [xMUDA: Cross-Modal Unsupervised Domain Adaptationfor 3D Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jaritz_xMUDA_Cross-Modal_Unsupervised_Domain_Adaptation_for_3D_Semantic_Segmentation_CVPR_2020_paper.pdf):
+- **xMUDA [CVPR/2020]** [xMUDA: Cross-Modal Unsupervised Domain Adaptationfor 3D Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jaritz_xMUDA_Cross-Modal_Unsupervised_Domain_Adaptation_for_3D_Semantic_Segmentation_CVPR_2020_paper.pdf): Fusion 2D and 3D.
