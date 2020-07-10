@@ -58,6 +58,7 @@ ECCV2020 37 DA related papers
 
 ### Medical related
 - **[ECCV/2020]** [Skin Segmentation from NIR Images using Unsupervised Domain Adaptation through Generative Latent Search]
+- **ISTN [MICCAI/2020]** [Image-level Harmonization of Multi-Site Datausing Image-and-Spatial Transformer Networks](https://arxiv.org/pdf/2006.16741.pdf): w/o comparison with other DA methods. ????
 - **[CVPR/2020]** [Unsupervised Instance Segmentation in Microscopy Images via Panoptic DomainAdaptation and Task Re-weighting](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Unsupervised_Instance_Segmentation_in_Microscopy_Images_via_Panoptic_Domain_Adaptation_CVPR_2020_paper.pdf): CycleGAN + 3 kinds of (GRL) adaptation: image, instance, and semantic  **Tasks**: nuclei segmentation of histopathology patch image
 - **[ICCV/2019]** [Semantic-Transferable Weakly-Supervised Endoscopic Lesions Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dong_Semantic-Transferable_Weakly-Supervised_Endoscopic_Lesions_Segmentation_ICCV_2019_paper.pdf): Endoscopic Lesions Segmentation. weakly supervised
 - **BEAL [MICCAI/2019]** [Boundary and Entropy-Driven Adversarial Learning for Fundus Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_12): boundary and entropy based adversairl learning. on **Fundus image segmentation**
