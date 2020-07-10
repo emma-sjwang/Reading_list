@@ -19,19 +19,18 @@
 
 ## Domain Adaptation (DA)
 
-- **[Arxiv/202007]** [Dual Mixup Regularized Learning forAdversarial Domain Adaptation](https://arxiv.org/pdf/2007.03141.pdf): mixup on images and domains. 
-
 ECCV2020 37 DA related papers
 - **[ECCV/2020]** [Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification]
+- **[ECCV/2020]** [Deep Credible Metric Learning for Unsupervised Domain Adaptation Person Re-identification]
+- **[ECCV/2020]** [Unsupervised Domain Adaptation with Noise Resistible Mutual-Training for Person Re-identification]
+- **[ECCV/2020]** [Unsupervised Domain Adaptation in the Dissimilarity Space for Person Re-identification]
 - **[ECCV/2020]** [Label Propagation with Augmented Anchors: A Simple Semi-Supervised Learning baseline for Unsupervised Domain Adaptation]
 - **[ECCV/2020]** [Domain2Vec: Domain Embedding for Unsupervised Domain Adaptation]
 - **[ECCV/2020]** [Unsupervised Domain Attention Adaptation Network for Caricature Attribute Recognition]
-- **[ECCV/2020]** [Deep Credible Metric Learning for Unsupervised Domain Adaptation Person Re-identification]
 - **[ECCV/2020]** [Learning to Combine: Knowledge Aggregation for Multi-Source Domain Adaptation]
 - **[ECCV/2020]** [CSCL: Critical Semantic-Consistent Learning for Unsupervised Domain Adaptation]
 - **[ECCV/2020]** [Monocular 3D Object Detection via Feature Domain Adaptation]
 - **[ECCV/2020]** [A Balanced and Uncertainty-aware Approach for Partial Domain Adaptation](https://arxiv.org/abs/2003.02541)
-- **[ECCV/2020]** [Unsupervised Domain Adaptation with Noise Resistible Mutual-Training for Person Re-identification]
 - **[ECCV/2020]** [Shuffle and Attend: Video Domain Adaptation]
 - **[ECCV/2020]** [Class-Incremental Domain Adaptation]
 - **[ECCV/2020]** [Spatial Attention Pyramid Network for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2003.12979.pdf)
@@ -53,14 +52,13 @@ ECCV2020 37 DA related papers
 - **[ECCV/2020]** [Domain Adaptation through Task Distillation]
 - **[ECCV/2020]** [Multi-Source Open-Set Deep Adversarial Domain Adaptation](https://dipeshtamboli.github.io/blog/2020/Multi-Source-Open-Set-Deep-Adversarial-Domain-Adaptation/)
 - **[ECCV/2020]** [HGNet: Hybrid Generative Network for Zero-shot Domain Adaptation]
-- **[ECCV/2020]** [Unsupervised Domain Adaptation in the Dissimilarity Space for Person Re-identification]
 - **[ECCV/2020]** [Label-Driven Reconstruction for Domain Adaptation in Semantic Segmentation](https://arxiv.org/abs/2003.04614)
 - **[ECCV/2020]** [High Resolution Zero-Shot Domain Adaptation of Synthetically Rendered Face Images](https://arxiv.org/abs/2006.15031)
 - **[ECCV/2020]** [Unsupervised Monocular Depth Estimation for Night-time Images using Adversarial Domain Feature Adaptation]
 - **[ECCV/2020]** [Dual Mixup Regularized Learning for Adversarial Domain Adaptation](https://arxiv.org/abs/2007.03141)
 
 ### Medical related
-- **[ECCV/2020]** [Skin Segmentation from NIR Images using Unsupervised Domain Adaptation through Generative Latent Search]
+- **[ECCV/2020]** [Skin Segmentation from NIR Images using Unsupervised Domain Adaptation through Generative Latent Search](https://arxiv.org/abs/2006.08696)
 - **ISTN [MICCAI/2020]** [Image-level Harmonization of Multi-Site Datausing Image-and-Spatial Transformer Networks](https://arxiv.org/pdf/2006.16741.pdf): w/o comparison with other DA methods. ????
 - **[CVPR/2020]** [Unsupervised Instance Segmentation in Microscopy Images via Panoptic DomainAdaptation and Task Re-weighting](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Unsupervised_Instance_Segmentation_in_Microscopy_Images_via_Panoptic_Domain_Adaptation_CVPR_2020_paper.pdf): CycleGAN + 3 kinds of (GRL) adaptation: image, instance, and semantic  **Tasks**: nuclei segmentation of histopathology patch image
 - **[ICCV/2019]** [Semantic-Transferable Weakly-Supervised Endoscopic Lesions Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dong_Semantic-Transferable_Weakly-Supervised_Endoscopic_Lesions_Segmentation_ICCV_2019_paper.pdf): Endoscopic Lesions Segmentation. weakly supervised
