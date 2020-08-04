@@ -20,14 +20,14 @@
 ## Domain Adaptation (DA)
 
 ECCV2020 37 DA related papers
-- **[ECCV/2020]** [Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification]
+- **[ECCV/2020]** [Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification](https://arxiv.org/abs/2007.10315)
 - **[ECCV/2020]** [Deep Credible Metric Learning for Unsupervised Domain Adaptation Person Re-identification]
-- **[ECCV/2020]** [Unsupervised Domain Adaptation with Noise Resistible Mutual-Training for Person Re-identification]
-- **[ECCV/2020]** [Unsupervised Domain Adaptation in the Dissimilarity Space for Person Re-identification]
-- **[ECCV/2020]** [Label Propagation with Augmented Anchors: A Simple Semi-Supervised Learning baseline for Unsupervised Domain Adaptation]
-- **[ECCV/2020]** [Domain2Vec: Domain Embedding for Unsupervised Domain Adaptation]
-- **[ECCV/2020]** [Unsupervised Domain Attention Adaptation Network for Caricature Attribute Recognition]
-- **[ECCV/2020]** [Learning to Combine: Knowledge Aggregation for Multi-Source Domain Adaptation]
+- **[ECCV/2020]** [Unsupervised Domain Adaptation with Noise Resistible Mutual-Training for Person Re-identification](https://zhaoj9014.github.io/pub/1391.pdf)
+- **[ECCV/2020]** [Unsupervised Domain Adaptation in the Dissimilarity Space for Person Re-identification](https://arxiv.org/abs/2007.13890)
+- **[ECCV/2020]** [Label Propagation with Augmented Anchors: A Simple Semi-Supervised Learning baseline for Unsupervised Domain Adaptation](https://arxiv.org/abs/2007.07695)
+- **[ECCV/2020]** [Domain2Vec: Domain Embedding for Unsupervised Domain Adaptation](https://arxiv.org/abs/2007.09257)
+- **[ECCV/2020]** [Unsupervised Domain Attention Adaptation Network for Caricature Attribute Recognition](https://arxiv.org/abs/2007.09344)
+- **[ECCV/2020]** [Learning to Combine: Knowledge Aggregation for Multi-Source Domain Adaptation](https://arxiv.org/abs/2007.08801)
 - **[ECCV/2020]** [CSCL: Critical Semantic-Consistent Learning for Unsupervised Domain Adaptation]
 - **[ECCV/2020]** [Monocular 3D Object Detection via Feature Domain Adaptation]
 - **[ECCV/2020]** [A Balanced and Uncertainty-aware Approach for Partial Domain Adaptation](https://arxiv.org/abs/2003.02541)
@@ -35,7 +35,7 @@ ECCV2020 37 DA related papers
 - **[ECCV/2020]** [Class-Incremental Domain Adaptation]
 - **[ECCV/2020]** [Spatial Attention Pyramid Network for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2003.12979.pdf)
 - **[ECCV/2020]** [Two-phase Pseudo Label Densification for Self-training based Domain Adaptation]
-- **[ECCV/2020]** [Attract, Perturb, and Explore: Learning a Feature Alignment Network for Semi-supervised Domain Adaptation]
+- **[ECCV/2020]** [Attract, Perturb, and Explore: Learning a Feature Alignment Network for Semi-supervised Domain Adaptation](https://arxiv.org/abs/2007.09375)
 - **[ECCV/2020]** [Curriculum Manager for Source Selection in Multi-Source Domain Adaptation](https://arxiv.org/pdf/2007.01261.pdf)
 - **[ECCV/2020]** [Learning to Detect Open Classes for Universal Domain Adaptation]
 - **[ECCV/2020]** [Contextual-Relation Consistent Domain Adaptation for Semantic Segmentation](https://arxiv.org/abs/2007.02424): local alignment
@@ -45,7 +45,7 @@ ECCV2020 37 DA related papers
 - **[ECCV/2020]** [Transferring Domain Shift Across Tasks for Zero-shot Domain adaptation]
 - **[ECCV/2020]** [YOLO in the Dark - Domain Adaptation Method for Merging Multiple Models]
 - **[ECCV/2020]** [Minimum Class Confusion for Versatile Domain Adaptation](https://arxiv.org/abs/1912.03699)
-- **[ECCV/2020]** [Learning from Scale-Invariant Examples for Domain Adaptation in Semantic Segmentation]
+- **[ECCV/2020]** [Learning from Scale-Invariant Examples for Domain Adaptation in Semantic Segmentation](https://arxiv.org/abs/2007.14449)
 - **[ECCV/2020]** [Task-conditioned Domain Adaptation for Pedestrian Detection in Thermal Imagery]
 - **[ECCV/2020]** [Mind the Discriminability: Asymmetric Adversarial Domain Adaptation]
 - **[ECCV/2020]** [Universal Self-Training for Unsupervised Domain Adaptation]
