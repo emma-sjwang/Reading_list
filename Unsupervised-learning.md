@@ -3,8 +3,8 @@
 ## Domain Generalization (DG)
 
 - **[ECCV/2020(oral)]** [Self-Challenging Improves Cross-Domain Generalization](https://arxiv.org/abs/2007.02454)
-- **[ECCV/2020]** [Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization]
-- **[ECCV/2020]** [Learning to Balance Specificity and Invariance for In and Out of Domain Generalization]
+- **EISNet [ECCV/2020]** [Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization](https://github.com/EmmaW8/EISNet)
+- **DMG [ECCV/2020]** [Learning to Balance Specificity and Invariance for In and Out of Domain Generalization](https://arxiv.org/pdf/2008.12839.pdf): domain specific masks. similar to attention map **DATA**: PACS, DomainNet
 - **[ECCV/2020]** [Learning to Learn with Variational Information Bottleneck for Domain Generalization]
 - **[ECCV/2020]** [Generalizing Person Re-Identification by Camera-Aware Invariance Learning and Cross-Domain Mixup]
 - **[ECCV/2020]** [Learning to Generate Novel Domains for Domain Generalization](https://arxiv.org/abs/2007.03304)
@@ -34,7 +34,7 @@ ECCV2020 37 DA related papers
 - **[ECCV/2020]** [Shuffle and Attend: Video Domain Adaptation]
 - **[ECCV/2020]** [Class-Incremental Domain Adaptation]
 - **[ECCV/2020]** [Spatial Attention Pyramid Network for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2003.12979.pdf)
-- **[ECCV/2020]** [Two-phase Pseudo Label Densification for Self-training based Domain Adaptation]
+
 - **[ECCV/2020]** [Attract, Perturb, and Explore: Learning a Feature Alignment Network for Semi-supervised Domain Adaptation]
 - **[ECCV/2020]** [Curriculum Manager for Source Selection in Multi-Source Domain Adaptation](https://arxiv.org/pdf/2007.01261.pdf)
 - **[ECCV/2020]** [Learning to Detect Open Classes for Universal Domain Adaptation]
@@ -84,8 +84,10 @@ ECCV2020 37 DA related papers
 - **[ICCV/2019]** []()
 
 ### Adversarial-based UDA - 2D Semantic segmentation
+- **[AAAI/2020]** [Content-Consistent Matching for DomainAdaptive Semantic Segmentation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590426.pdf) layout matching
 - :star::star::star::star::star::star: **SIM [CVPR/2020]** [Differential Treatment for Stuff and Things:A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Differential_Treatment_for_Stuff_and_Things_A_Simple_Unsupervised_Domain_CVPR_2020_paper.pdf): pseudo label; Performance is better than oral paper below, solved GAN training decrease. **Datasets**: Sources[GTA5, SYNTHIA],  Targ et[Cityscapes validation set]
 - **[CVPR/2020]** [Unsupervised Intra-domain Adaptation for Semantic Segmentationthrough Self-Supervision](https://arxiv.org/pdf/2004.07703v1.pdf): ADVENT variance, split the dataset into easy and hard subsets. Then adversaril learning between them by a discriminator. Improvement is evident compared with ADVENT but similar to MaxSquare. **Datasets**: Sources[GTA5, SYNTHIA, Synscapes],  Targ et[Cityscapes validation set]
+- **[ECCV/2020]** [Two-phase Pseudo Label Densification for Self-training based Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580528.pdf): similar to the above one. The performance even higher than above
 - **Dec [AAAI/2020]** [Joint Adversarial Learning for Domain Adaptationin Semantic Segmentation](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ZhangY.4858.pdf) **Datasets**:GTA5, Cityscapes, SYNTHIA
 - **[AAAI/2020]** [An Adversarial Perturbation Oriented Domain Adaptation Approach forSemantic Segmentation](https://arxiv.org/pdf/1912.08954v1.pdf)
 - :star::star::star::star::star::star:**[NIPS/2019]** [Category Anchor-Guided Unsupervised DomainAdaptation for Semantic Segmentation](https://arxiv.org/pdf/1910.13049.pdf)
@@ -120,7 +122,9 @@ ECCV2020 37 DA related papers
 - **[ICCV/2019]** [Guided Curriculum Model Adaptation and Uncertainty-Aware Evaluation forSemantic Nighttime Image Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Sakaridis_Guided_Curriculum_Model_Adaptation_and_Uncertainty-Aware_Evaluation_for_Semantic_Nighttime_ICCV_2019_paper.pdf) **Datasets**:Dark Zurich
 
 ### Domain invariant alignment - Object recognition 
+- [Submitted to NIPS/2020] [Domain Adaptation without Source Data](https://arxiv.org/pdf/2007.01524.pdf)
 - **[ICML/2020]** [Implicit Class-Conditioned Domain Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/2006.04996). MMD+pseudo-labels. **Datasets**: Office-31, Office-Home, andVisDA2017.
+- **[CVPR/2020]** [Universal Source-Free Domain Adaptation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kundu_Universal_Source-Free_Domain_Adaptation_CVPR_2020_paper.pdf)
 - **DADA [AAAI/2020]** [Discriminative Adversarial Domain Adaptation](https://arxiv.org/pdf/1911.12036.pdf): multi-task [category and domainpredictions]. **Datasets**: Office-31, [Syn2Real](https://arxiv.org/abs/1806.09755)
 - **[ICML/2019]** [On Learning Invariant Representations for Domain Adaptation](http://proceedings.mlr.press/v97/zhao19a/zhao19a.pdf): Theoretic analysis. **Datasets**: digits
 - **BSP [ICML/2019]** [Transferability vs. Discriminability:Batch Spectral Penalization for Adversarial Domain Adaptation](http://proceedings.mlr.press/v97/chen19i/chen19i.pdf) **Datasets**: Office-31, Office-Home, VisDA-2017, Digits
