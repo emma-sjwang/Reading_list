@@ -1,10 +1,12 @@
 # Unsupervised Learning 
 
 ## Domain Generalization (DG)
-
+- **[CVPR/2020]** [Multi-Domain Learning for Accurate and Few-Shot Color Constancy](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xiao_Multi-Domain_Learning_for_Accurate_and_Few-Shot_Color_Constancy_CVPR_2020_paper.pdf) : multi-domain, channel re-weighting
+- **[arxiv]** [Domain Generalization via Semi-supervised Meta Learning](https://arxiv.org/pdf/2009.12658.pdf): supervised loss, semi-loss, alignment loss.
+- **LDDG [NIPS/2020]** [Domain Generalization for Medical Imaging Classification with Linear-Dependency Regularization](https://arxiv.org/abs/2009.12829)
 - **EISNet [ECCV/2020]** [Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization](https://github.com/EmmaW8/EISNet)
 - **DMG [ECCV/2020]** [Learning to Balance Specificity and Invariance for In and Out of Domain Generalization](https://arxiv.org/pdf/2008.12839.pdf): domain specific masks. similar to attention map **DATA**: PACS, DomainNet
-- **[ECCV/2020(oral)]** [Self-Challenging Improves Cross-Domain Generalization](https://arxiv.org/abs/2007.02454) Interesting. mute activate node.
+- **[ECCV/2020(oral)]** [Self-Challenging Improves Cross-Domain Generalization](https://arxiv.org/abs/2007.02454) Interesting. mute activate node.	
 - **[ECCV/2020]** [Learning to Learn with Variational Information Bottleneck for Domain Generalization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550205.pdf): meta-learning
 - **[ECCV/2020]** [Learning to Generate Novel Domains for Domain Generalization](https://arxiv.org/abs/2007.03304)
 - **[ECCV/2020]** [Learning to Optimize Domain Specific Normalization for Domain Generalization](https://arxiv.org/abs/1907.04275)
@@ -55,6 +57,7 @@ ECCV2020 37 DA related papers
 
 
 ### Medical related
+- **[TMI/2020] [Anatomy-Regularized Representation Learning for Cross-Modality Medical Image Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9201096): An applicant ion of CV method.
 - **ISTN [MICCAI/2020]** [Image-level Harmonization of Multi-Site Datausing Image-and-Spatial Transformer Networks](https://arxiv.org/pdf/2006.16741.pdf): w/o comparison with other DA methods. ????
 - **[CVPR/2020]** [Unsupervised Instance Segmentation in Microscopy Images via Panoptic DomainAdaptation and Task Re-weighting](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Unsupervised_Instance_Segmentation_in_Microscopy_Images_via_Panoptic_Domain_Adaptation_CVPR_2020_paper.pdf): CycleGAN + 3 kinds of (GRL) adaptation: image, instance, and semantic  **Tasks**: nuclei segmentation of histopathology patch image
 - **[ICCV/2019]** [Semantic-Transferable Weakly-Supervised Endoscopic Lesions Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dong_Semantic-Transferable_Weakly-Supervised_Endoscopic_Lesions_Segmentation_ICCV_2019_paper.pdf): Endoscopic Lesions Segmentation. weakly supervised
@@ -107,6 +110,7 @@ ECCV2020 37 DA related papers
 - **[Arxiv/2016]** [Fcns in the wild: Pixel-level adversarial and constraint-basedadaptation](https://arxiv.org/abs/1612.02649) **Datasets**: Cityscapes, SYNTHIA, GTA5, BDDS
 
 ### pseudo labels-based UDA - 2D Semantic segmentation
+- **[CVPR/2019]** [Domain-Specific Batch Normalization for Unsupervised Domain Adaptation](https://arxiv.org/pdf/1906.03950.pdf)
 - **[IJCAI/2020]** [Unsupervised Scene Adaptation with Memory Regularizationin vivo](https://arxiv.org/pdf/1912.11164.pdf): auxiliary classifier instead teacher model + pseudo label **Datasets**:GTA5, Cityscapes, SYNTHIA, Oxford RobotCar
 - **CBST [ECCV/2018]** [Unsupervised Domain Adaptation for SemanticSegmentation via Class-Balanced Self-Training](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Yang_Zou_Unsupervised_Domain_Adaptation_ECCV_2018_paper.pdf): pseudo labels+class-balanced self-train **Datasets**:NTHU,Cityscapes, SYNTHIA, GTA5.
 - **BDL [CVPR/2019]** [Bidirectional Learning for Domain Adaptation of Semantic Segmentation](https://arxiv.org/pdf/1904.10620.pdf)
@@ -123,6 +127,7 @@ ECCV2020 37 DA related papers
 - **[ICCV/2019]** [Guided Curriculum Model Adaptation and Uncertainty-Aware Evaluation forSemantic Nighttime Image Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Sakaridis_Guided_Curriculum_Model_Adaptation_and_Uncertainty-Aware_Evaluation_for_Semantic_Nighttime_ICCV_2019_paper.pdf) **Datasets**:Dark Zurich
 
 ### Domain invariant alignment - Object recognition 
+- [**CVPR/2020**] [Structure Preserving Generative Cross-Domain Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xia_Structure_Preserving_Generative_Cross-Domain_Learning_CVPR_2020_paper.pdf): projection gragh matching
 - [Submitted to NIPS/2020] [Domain Adaptation without Source Data](https://arxiv.org/pdf/2007.01524.pdf)
 - **[ECCV/2020]** [Mind the Discriminability: Asymmetric Adversarial Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690579.pdf): Auto encoder to reconstruct feature for S and T domains.
 - **[ECCV/2020]** [Class-Incremental Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580052.pdf): project Source domain to target domain, align them
@@ -169,4 +174,10 @@ ECCV2020 37 DA related papers
 - **xMUDA [CVPR/2020]** [xMUDA: Cross-Modal Unsupervised Domain Adaptationfor 3D Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jaritz_xMUDA_Cross-Modal_Unsupervised_Domain_Adaptation_for_3D_Semantic_Segmentation_CVPR_2020_paper.pdf): Fusion 2D and 3D.
 
 ### Video domain adaptation
-- **[ECCV/2020]** [Shuffle and Attend: Video Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570664.pdf)
+- **[ECCV/2020]** [Shuffle and Attend: Video Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570664.pdf):
+- [**ECCV/2020**] [Omni-sourced Webly-supervised Learning for Video Recognition](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600664.pdf): 滑雪视频 MMLAB， 收集数据啥的
+- :star::star: :star:[**CVPR/2020**] [Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Action_Segmentation_With_Joint_Self-Supervised_Temporal_Domain_Adaptation_CVPR_2020_paper.pdf): GRL DA + frame permutation classifier
+- [**WACV/2020**] [Action Segmentation with Mixed Temporal Domain Adaptation](https://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.pdf): local GRL DA+ global DA with domain attention
+- [**ICCV/2020**] [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Temporal_Attentive_Alignment_for_Large-Scale_Video_Domain_Adaptation_ICCV_2019_paper.pdf): domain attention
+- [**AAAI/2020**] [Generative Adversarial Networks for Video-to-Video Domain Adaptation](https://arxiv.org/abs/2004.08058): CycleGAN
+
