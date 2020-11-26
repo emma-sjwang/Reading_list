@@ -11,7 +11,8 @@
 - **[ECCV/2020]** [Learning to Generate Novel Domains for Domain Generalization](https://arxiv.org/abs/2007.03304)
 - **[ECCV/2020]** [Learning to Optimize Domain Specific Normalization for Domain Generalization](https://arxiv.org/abs/1907.04275)
 - **[ECCV/2020]** [HGNet: Hybrid Generative Network for Zero-shot Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720052.pdf)
-- 
+
+  
 ### Medical related
 - **[IEEE-TMI/2020]** [MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data](https://github.com/liuquande/MS-Net): **Supervised** domain specific BN. **Task**: Prostate Segmentation
 - **[Neurocomputing/2019]** [USE-Net: Incorporating Squeeze-and-Excitation blocks into U-Net for prostate zonal segmentation of multi-institutional MRI datasets](https://www.sciencedirect.com/science/article/pii/S0925231219309245): **Supervised**
@@ -21,6 +22,7 @@
 ## Domain Adaptation (DA)
 
 ECCV2020 37 DA related papers
+- **[ECCV/2020]** [Instance Adaptive Self-Training for Unsupervised Domain Adaptation](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710409.pdf): adaptation in the instance level
 - :star::star::star::star::star::star:[ECCV/2020/Oral]** [Domain-invariant Stereo Matching Newtorks](https://arxiv.org/pdf/1911.13287.pdf) Domain normalisation
 - **[ECCV/2020]** [Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification](https://arxiv.org/abs/2007.10315) CycleGAN+disentanglement+self-training
 - **[ECCV/2020]** [Unsupervised Domain Adaptation with Noise Resistible Mutual-Training for Person Re-identification](https://zhaoj9014.github.io/pub/1391.pdf)
@@ -57,7 +59,9 @@ ECCV2020 37 DA related papers
 
 
 ### Medical related
-- **[TMI/2020] [Anatomy-Regularized Representation Learning for Cross-Modality Medical Image Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9201096): An applicant ion of CV method.
+
+- **[MICCAI/2020]** [Self Domain Adapted Network](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_43): DA at test time on each image. OCT layer segmentation & MRI synthesis. using auto encoder between feature blocks.
+- **[TMI/2020]** [Anatomy-Regularized Representation Learning for Cross-Modality Medical Image Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9201096): An applicant ion of CV method.
 - **ISTN [MICCAI/2020]** [Image-level Harmonization of Multi-Site Datausing Image-and-Spatial Transformer Networks](https://arxiv.org/pdf/2006.16741.pdf): w/o comparison with other DA methods. ????
 - **[CVPR/2020]** [Unsupervised Instance Segmentation in Microscopy Images via Panoptic DomainAdaptation and Task Re-weighting](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Unsupervised_Instance_Segmentation_in_Microscopy_Images_via_Panoptic_Domain_Adaptation_CVPR_2020_paper.pdf): CycleGAN + 3 kinds of (GRL) adaptation: image, instance, and semantic  **Tasks**: nuclei segmentation of histopathology patch image
 - **[ICCV/2019]** [Semantic-Transferable Weakly-Supervised Endoscopic Lesions Segmentation](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dong_Semantic-Transferable_Weakly-Supervised_Endoscopic_Lesions_Segmentation_ICCV_2019_paper.pdf): Endoscopic Lesions Segmentation. weakly supervised
@@ -82,6 +86,7 @@ ECCV2020 37 DA related papers
 - **[ICCV/2019]** []()
 
 ### Adversarial-based UDA - 2D Semantic segmentation
+- **[ICIP/2020]**[VARIATIONAL AUTOENCODER BASED UNSUPERVISED DOMAIN ADAPTATION FOR SEMANTIC SEGMENTATION])(https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190973&tag=1)
 - **[AAAI/2020]** [Content-Consistent Matching for DomainAdaptive Semantic Segmentation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590426.pdf) layout matching
 - **[ECCV/2020]** [Self-Supervised CycleGAN for Object-Preserving Image-to-Image Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650494.pdf): patch-based domain ailgnment based on CycleGAN+domain classificaion network
 - **[ECCV/2020]** [Spatial Attention Pyramid Network for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2003.12979.pdf): Attention-based network architecture design.
@@ -181,3 +186,25 @@ ECCV2020 37 DA related papers
 - [**ICCV/2020**] [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Temporal_Attentive_Alignment_for_Large-Scale_Video_Domain_Adaptation_ICCV_2019_paper.pdf): domain attention
 - [**AAAI/2020**] [Generative Adversarial Networks for Video-to-Video Domain Adaptation](https://arxiv.org/abs/2004.08058): CycleGAN
 
+
+
+
+
+## GAN Training
+
+
+
+- **[NIPS 2020]** [Differentiable Augmentation for Data-Efficient GAN Training](https://github.com/mit-han-lab/data-efficient-gans): Add Data augmentatio between G and D. results seem amazing.
+- 
+
+
+
+
+
+## Representation Learning
+
+- [] [Self-Supervised Ranking for Representation Learning](https://arxiv.org/pdf/2010.07258.pdf): 换了一种loss
+- SimCLR **[ICML/2020]** [A Simple Framework for Contrastive Learning of Visual Representations](https://github.com/google-research/simclr)
+- SimCLRv2 **[NIPS/2020]** [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://github.com/google-research/simclr)
+- MOCO **[]** [Momentum contrast for unsupervised visual representation learning](https://arxiv.org/abs/1911.05722)
+- **C2L** **[MICCAI/2020]** [Comparing to Learn: Surpassing ImageNet  Pretraining on Radiographs by Comparing Image Representations](https://arxiv.org/abs/2007.07423) a version of MOCO update, change the way to select positive and negative pairs.
